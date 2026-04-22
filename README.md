@@ -1,4 +1,4 @@
-# 🧠 Task Management System (Backend + Frontend)
+#  Task Management System (Backend + Frontend)
 
 A full-stack Task Management application built with Django REST Framework and React.js.
 Implements secure authentication, role-based access control, and CRUD operations with a scalable backend structure.
@@ -59,7 +59,7 @@ Implements secure authentication, role-based access control, and CRUD operations
 ## ⚙️ Backend Setup
 
 ```bash
-git clone <your-repo-link>
+git clone https://github.com/Kavya-N03/task-management-system
 cd task_management_backend
 # create virtual environment
 python -m venv venv
@@ -88,7 +88,27 @@ python manage.py migrate
 python manage.py runserver
 ```
 
----
+## 📘 API Documentation
+
+Base API URL:
+https://task-management-system-82ad.onrender.com/api/v1/
+
+Swagger:
+https://task-management-system-82ad.onrender.com/swagger/
+
+ReDoc:
+https://task-management-system-82ad.onrender.com/redoc/
+
+Admin Panel:
+https://task-management-system-82ad.onrender.com/admin/
+
+> Note: APIs can be tested using Swagger or JWT authentication.
+
+## 🚀 Deployment
+
+Backend deployed on Render
+
+> Uses PostgreSQL database in production via environment variables
 
 ## 💻 Frontend Setup
 
@@ -116,13 +136,7 @@ npm run dev
 
 ---
 
-## 📘 API Documentation
 
-Swagger available at:
-http://127.0.0.1:8000/swagger/
-http://127.0.0.1:8000/redoc/
-
----
 
 ## 🔐 Role-Based Access Logic
 
@@ -146,9 +160,5 @@ http://127.0.0.1:8000/redoc/
 
 ---
 
-## 🚀 Deployment
 
-Backend deployed on Render
-
-> Uses PostgreSQL database in production via environment variables
 

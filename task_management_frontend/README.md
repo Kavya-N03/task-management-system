@@ -1,16 +1,47 @@
-# React + Vite
+# 🎨 Task Management Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Frontend for the Task Management System built using React.js and Tailwind CSS.
+It connects to the Django REST API for authentication and task management.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Features
 
-## React Compiler
+* User Registration & Login
+* JWT Authentication
+* Protected Dashboard
+* Create, Update, Delete Tasks
+* Displays API success/error messages
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* React.js
+* Tailwind CSS
+* Axios
+
+---
+
+## ⚙️ Setup
+
+```bash
+cd task_management_frontend
+npm install
+npm run dev
+```
+
+---
+
+## 🔗 Backend API
+
+Make sure backend is running or use deployed API:
+
+https://task-management-system-82ad.onrender.com/api/v1/
+
+---
+
+## 📌 Notes
+
+* JWT token is stored in localStorage
+* All API requests require authentication
