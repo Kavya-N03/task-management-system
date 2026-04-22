@@ -26,7 +26,7 @@ function Register(){
         try{
             setLoading(true)
             await registerUser(formData)
-            navigate("/login");
+            navigate("/");
         }
         catch(err){
             setError(err.message)
