@@ -35,8 +35,6 @@ npm run dev
 
 ## 🔗 Backend API
 
-Make sure backend is running or use deployed API:
-
 https://task-management-system-82ad.onrender.com/api/v1/
 
 ---

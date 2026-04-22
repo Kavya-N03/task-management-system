@@ -85,7 +85,7 @@ function Register(){
                 <p className="text-sm text-center mt-4">
                     Already registered?{" "}
                     <Link 
-                        to="/login" 
+                        to="/" 
                         className="text-blue-500 hover:underline"
                     >
                         Login
