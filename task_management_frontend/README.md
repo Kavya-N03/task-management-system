@@ -41,6 +41,13 @@ https://task-management-system-82ad.onrender.com/api/v1/
 
 ---
 
+## 🔗 Frontend Deployed Link
+
+https://task-management-system-kavya-n03s-projects.vercel.app/
+
+---
+
+
 ## 📌 Notes
 
 * JWT token is stored in localStorage
